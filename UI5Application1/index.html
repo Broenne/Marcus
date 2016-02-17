@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta charset="UTF-8">
+    <!--<script src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js" type="text/javascript"
+                id="sap-ui-bootstrap"
+                data-sap-ui-libs="sap.ui.ux3, sap.ui.commons, sap.ui.table">
+    </script>-->
+    <title>Nav Container</title>
+
+
+
+    <!-- Application launch configuration -->
+
+</head>
+<!-- UI Content -->
+<body onload="" class="sapUiBody" id="content" role="application">
+
+    <button onclick="test();">oData-Button!!!</button>
+
+hello
+</body>
+</html>
+
+
+
+
+
+<!-- ACHTUNG!!! resurceroots=name: Quelle,wo die component,js liegt!!!!!! -->
+<script id="sap-ui-bootstrap" crossorigin="anonymous"
+        src="http://deosn1lvmes15.kromschroeder.elster-group.com:50000/sapui5/resources/sap-ui-core.js"
+        data-sap-ui-libs="sap.m, sap.ui.ux3, sap.ui.commons, sap.ui.table"
+        data-sap-ui-theme="sap_bluecrystal"
+        data-sap-ui-xx-bindingsyntax="complex"
+        data-sap-ui-preload="async"
+        data-sap-ui-compatversion="edge"
+        data-sap-ui-resourceroots='{"sap.m.sample.NavContainer": "sap.m.sample.NavContainer", "sap.ui.demo.mock": "mockdata"}'>
+</script>
+
+<script>
+    sap.ui.getCore().attachInit(function () {
+        new sap.m.App({
+            pages: [
+                new sap.m.Page({
+                    title: "Nav Container",
+                    enableScrolling: true,
+                    content: [new sap.ui.core.ComponentContainer({
+                        name: "sap.m.sample.NavContainer"
+                    })]
+                })
+            ]
+        }).placeAt("content");
+    });
+</script>
+<script src="sap.m.sample.NavContainer/odata.js"></script>
+<script>
+    function test() {
+        console.log("odata");
+        var oModel = new sap.ui.model.odata.ODataModel("http://services.odata.org/OData/OData.svc/Categories", true); //http://localhost:2344/odata
+        console.log("oModel: " + oModel);
+        
+        var successCallBack=function(oData, oResponse)
+        {
+            // create JSON model  
+            var oODataJSONModel = new sap.ui.model.json.JSONModel();
+
+            // set the odata JSON as data of JSON model  
+            oODataJSONModel.setData(oData);
+
+            // store the model  
+            //form2.setModel(oODataJSONModel, "localModel");
+            console.log("json: "+oODataJSONModel); //successful output  
+
+
+
+            //var dataget = JSON.stringify(oData);
+            //console.log("json: " + dataget);
+            //var count = oData.results[0].Ort01;
+            //var Name1 = oData.results[0].Name1;
+            //var Kunnr = oData.results[0].Kunnr;
+            //alert(count + "  " +Name1 + "  " +Kunnr);
+
+            // If you want to do something with those variables you can call any function
+            // here and pass variables defined also before this callback
+            //anyFunction(variableDefinedBeforeCallback, count, Name1, Kunnr, ...);
+        };
+        
+        oModel.read('/', null, null, true, successCallBack);
+        // catch callback???
+        var xxx = sap.ui.getCore().byId("@odata.context");//.setModel(oModel);
+        console.log("xxx: " + xxx);
+
+    }
+</script>
+
+
+
+<!--<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+
+
+    <script id="sap-ui-bootstrap"
+            src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+            data-sap-ui-libs="sap.m"
+            data-sap-ui-theme="sap_bluecrystal"
+            data-sap-ui-xx-bindingsyntax="complex"
+            data-sap-ui-preload="async"
+            data-sap-ui-compatversion="edge"
+            data-sap-ui-resourceroots='{"./sap.m.sample.NavContainer": "./", "sap.ui.demo.mock": "mockdata"}'>
+    </script>
+    <script>
+
+        sap.ui.getCore().attachInit(function () {
+            new sap.m.App({
+                pages: [
+                    new sap.m.Page({
+                        title: "Nav Container",
+                        enableScrolling: true,
+                        content: [new sap.ui.core.ComponentContainer({
+                            name: "sap.m.sample.NavContainer"
+                        })]
+                    })
+                ]
+            }).placeAt("content");
+        });
+
+
+    </script>
+    <!--<script src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+            id="sap-ui-bootstrap"
+            data-sap-ui-libs="sap.ui.commons,
+            sap.ui.table,
+            sap.ui.ux3,
+            sap.m,
+            sap.ui.layout"
+            data-sap-ui-theme="sap_bluecrystal"
+            data-sap-ui-xx-bindingsyntax="complex"
+            data-sap-ui-preload="async"
+            data-sap-ui-compatversion="edge"
+            data-sap-ui-resourceroots='{"sap.m.sample.NavContainer": "./", "sap.ui.demo.mock": "mockdata"}'>
+
+    </script>-->
+    <!--<link href="css/ui5application1.css" rel="stylesheet" type="text/css"/>
+    <script>
+        sap.ui.localResources("ui5application1");
+        sap.ui.localResources("util");
+        sap.ui.localResources("i18n");
+        var view = sap.ui.view({ viewName: "ui5application1.Main", type: sap.ui.core.mvc.ViewType.JS });
+        view.placeAt("content");
+    </script>-->
+<!--</head>-->
+<!--<body class="sapUiBody" role="application">
+<div>hello world</div>
+
+<div id="myControlTemplate" data-type="text/x-handlebars-template"></div>
+
+<!--Example 1 running !!!-->
+<!--<div class="sapUiBody" id="HelloWorld"></div>-->
+
+<!-- UI Content -->
+
+
+<!--<!--</body>-->
+
+
+<!--<body class="sapUiBody" id="content" role="application">
+</body>
+</html>-->
+

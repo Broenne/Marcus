@@ -1,0 +1,15 @@
+
+<!-- In app.js ist der controller und die view gemappt -->
+
+<ion-view view-title="cam">
+    <ion-content class="has-header">
+        <button ng-click="getPhoto()" class="button button-block button-primary">Take a Photo</button>
+        <div style='width: 100%'>
+            <img ng-src="{{lastPhoto}}" style='width: 75%'>
+        </div>
+        <button class="button button-clear icon ion-plus" ng-click="editFileName()"></button>
+        <a ng-click="storeLocal()" class="button icon-right ion-chevron-right button-calm">Store image!</a>
+        <br>
+        <a>todo add a possibillity to share the photo with dropbox</a>
+    </ion-content>
+</ion-view>

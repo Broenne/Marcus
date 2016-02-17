@@ -1,0 +1,13 @@
+  <!--  var testImage = new Image();
+			testImage.crossOrigin="anonymous";
+			var imageData = document.getElementById("image");
+			alert("hello" + imageData);
+			testImage.src = imageData;		
+			
+			testImage.onload = function () {
+				stringResult = OCRAD(testImage);-->
+				
+				<!-- setTimeout(function () {
+            alert(stringResult);
+        },2000);
+	} -->

@@ -1,0 +1,137 @@
+﻿chrome.exe --disable-web-security
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+
+    <title>Side Menus</title>
+		<script src="ocrad.js"></script>
+    <!--<script src='http://code.jquery.com/jquery-1.7.1.js'></script>
+    <script src="fabric.js-master\dist\fabric.js"></script>-->
+
+    <!-- Get version 1.1.0 of Fabric.js from CDN -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/1.1.0/fabric.all.min.js" ></script>
+
+	<!-- Get the highest 1.X version of jQuery from CDN. Required for ready() function. -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+<script>
+
+	function CanvasContext()	{
+			var image=document.getElementById("image");
+			//image.crossOrigin = '';
+			var canvas = document.getElementById("canvas");
+			canvas.width = image.naturalWidth;
+			canvas.height = image.naturalHeight;
+			var context = canvas.getContext("2d");
+			console.log("ConextFunction" + context);
+			return context;
+	};
+
+	function Ocrad(canvasContext){
+		console.log("start Ocrad");
+		var stringResult = "";
+		var context=canvasContext();
+		//context.drawImage(image, 0, 0);
+		//console.log("context in Ocrad:" + context.toDataURL());
+		//context.putImageData(context.getImageData(0, 0, image.width, image.height), 0, 0);
+		var stringResult = OCRAD(context);
+		alert(stringResult);
+		console.log("End Ocrad");
+	};
+
+	function ALL(){
+		GrayScale(CanvasContext);
+		//Ocrad(CanvasContext);// do this per injection??
+    //fabricXXX();
+	};
+
+	 function GrayScale(canvasContext){
+		console.log("start GrayScale");
+		var context=canvasContext();
+
+
+		var base_image = new Image();
+		  base_image.src = 'zzz.png';
+		  base_image.onload = function(){
+			context.drawImage(base_image, 0, 0);
+			console.log("draw");
+			var width=base_image.width;
+		console.log("width" + width);
+		var imageData = context.getImageData(0, 0, width, base_image.height);
+
+		//The Luminance Algorithm
+		//context.drawImage(image, 0, 0,300,300);
+		console.log("Conext" + context);
+		//var width=image.width;
+		//var imageData = context.getImageData(0, 0, width, image.height);
+		console.log("imageData" + imageData);
+		var pixels = imageData.data;
+		//console.log("pixels.length"+pixels.length)
+		/*for (var i = 0, n = pixels.length; i < n; i += 4) {
+			var grayscale = pixels[i] * .3 + pixels[i+1] * .59 + pixels[i+2] * .11;
+			pixels[i  ] = grayscale;        // red
+			pixels[i+1] = grayscale;        // green
+			pixels[i+2] = grayscale;        // blue
+			//pixels[i+3]              is alpha
+		}*/
+
+		//console.log("pixels" + pixels);
+		//console.log("ContextFunction: " + context.toDataURL());
+		// alle vier gray den selben wert?
+		/*for (var i = 0, n = pixels.length; i < n; i ++) {
+  			if(pixels[i  ]>40){
+  				pixels[i]=255;
+  			}else{
+  			pixels[i]=0;
+      }
+		}*/
+		context.putImageData(imageData, 0, 0);
+		console.log("PutImageData");
+		/*for (var item in context) {
+		  console.log(item + "  " + context[item]);
+		}*/
+		var stringResult = OCRAD(context);
+		//alert(stringResult);
+    console.log("OCRAD-result: " + stringResult);
+		console.log("End GrayScale");
+		}
+	};
+ </script>
+
+</head>
+<!--ACHTUNG BEI CHROME IST CORS-ORIGIN AUSGESTELLT!!!!!!-->
+
+<body>
+   <h1>hello picture</h1>
+   <img src="zzz.png" id="image" style= rotate="90"">
+   <button onclick="ALL()">Click me</button>
+   <canvas id="canvas"></canvas>
+
+   todo:
+   -fehler im scaling wenn orginalbild größer als img-box der html seite. es wird max das image tag size ausgegraut
+   "width:300px;
+   <div id="logging"></div>
+
+</body>
+<script>
+// start wirth fabric js
+//$(function () { // todo, is this an onload in jquery????
+function fabricXXX(){
+ // var canvas = new fabric.Canvas('canvas');
+ console.log("canvas: " + canvas);
+  fabric.Image.fromURL('xxx.jpg', function(img) {
+     // add filter
+      img.filters.push(new fabric.Image.filters.Grayscale());
+      // apply filters and re-render canvas when done
+      img.applyFilters(canvas.renderAll.bind(canvas));
+      // add image onto canvas
+      console.log("img" + img);
+      canvas.add(img);
+    });
+  };
+//});
+</script>
+
+</html>

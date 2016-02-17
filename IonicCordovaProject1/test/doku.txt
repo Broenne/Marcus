@@ -1,0 +1,27 @@
+-win 10
+-VS2015 + monile package hybrid   (name???)
+-google chrome
+-batch file ausführen bei geschlossem browser
+
+-zum builden darf als device nit der google emulator stehen!
+
+
+GIMP2 für image bearbeitung
+
+
+-greyscale
+-schwellwert
+
+LOGGING
+chrome://inspect
+besser:
+C:\Program Files (x86)\Android\android-sdk\platform-tools
+adb logcat
+
+
+
+
+git:
+git config --global user.name "Marcus Brönstrup"
+
+https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/

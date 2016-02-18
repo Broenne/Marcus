@@ -1,0 +1,60 @@
+<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>QUnit Tests</title>
+    <link rel="stylesheet" type="text/css" href="file:///C:/Users/broenstrupm/AppData/Local/Microsoft/VisualStudio/14.0/Extensions/zol0nz35.zib/TestFiles/QUnit/qunit.css"/>
+<script type="text/javascript" src="file:///C:/Users/broenstrupm/AppData/Local/Microsoft/VisualStudio/14.0/Extensions/zol0nz35.zib/TestFiles/QUnit/qunit.js"></script>
+
+    
+    
+    <script type="text/javascript" src="file:///C:/apps/Marcus_Spielwiese/WebApplication3/Scripts/angular.js"></script>
+<script type="text/javascript" src="file:///C:/apps/Marcus_Spielwiese/WebApplication3/Scripts/angular-mocks.js"></script>
+<script type="text/javascript" src="file:///C:/apps/Marcus_Spielwiese/WebApplication3/Scripts/angular-scenario.js"></script>
+<script type="text/javascript" src="file:///C:/apps/Marcus_Spielwiese/WebApplication3/Scripts/angular-resource.js"></script>
+<script type="text/javascript" src="file:///C:/apps/Marcus_Spielwiese/WebApplication3/Scripts/angular-route.js"></script>
+<script type="text/javascript" src="file:///C:/apps/Marcus_Spielwiese/WebApplication3/Services/Modules.js"></script>
+
+    <script type="text/javascript" src="file:///c:/apps/marcus_spielwiese/webapplication3/tests/odatatests.js"></script>
+
+
+    <script>
+        var amdTestPaths = [];
+        if (window.require && typeof window.require === "function" && amdTestPaths.length > 0) {
+            if (window.chutzpah) {
+                window.chutzpah.usingModuleLoader = true;
+            }
+
+            if("") {
+                require.config({
+                    baseUrl: ""
+                });
+            }
+
+            require.config({
+                map: {
+                    '*': {
+                        
+                        }
+                }
+            });
+
+            window.QUnit.config.autostart = false;
+            window.require(amdTestPaths, function () {
+                console.log("!!_!! Starting QUnit from inline AMD call...");
+                if (!window._Chutzpah_covobj_name) {
+                    window.QUnit.start();
+                }
+            });
+        }
+    </script>
+</head>
+
+<body>
+    
+    <div id="qunit"></div>
+    <div id="qunit-fixture"></div>
+</body>
+</html>
+

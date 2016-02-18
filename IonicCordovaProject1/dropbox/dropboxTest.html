@@ -1,0 +1,80 @@
+<html>
+
+<head>
+<script src="https://www.dropbox.com/static/api/dropbox-datastores-1.2-latest.js" type="text/javascript"></script>
+</head>
+
+
+<body onload="dropbox()">
+	<center>
+         <button onclick="clickX()">Click to create <code>hello.txt</code> in Dropbox.</button>
+     </center>
+
+
+</body>
+
+<script>
+//https://blogs.dropbox.com/developers/2013/12/writing-a-file-with-the-dropbox-javascript-sdk/
+	var appKey="b0p253cf4pkii3h";
+	var client;
+	var httpObject;
+	function dropbox(){
+		client = new Dropbox.Client({key: appKey});
+
+		console.log("client. " + client);
+		var httpString = "https://www.dropbox.com/1/oauth2/authorize?client_id=b0p253cf4pkii3h&response_type=code&redirect_uri=https://www.dropbox.com/home/test&state=1yzDVBJGRy4AAAAAAABvB_d0mwqveAbG1XO8pet2mDYkK_IBunaAZLQQ4jAl5SIn;"
+		httpObject = httpRequest();
+		console.log("httpObject: " + httpObject);
+		httpObject.onreadystatechange = onReadyStateChange;
+		httpObject.open('GET', httpString, true); // true for asynchronous
+		httpObject.send();
+	};
+
+function onReadyStateChange(){
+	if(httpObject.readyState == 4 && httpObject.status == 200){//
+		console.log("http response: " + httpObject.responseText );
+		var responseParameters = httpObject.responseText;
+		/*var parameterMap = [];
+			 for(var i = 0; i < responseParameters.length; i++) {
+					 parameterMap[responseParameters[i].split("=")[0]] = responseParameters[i].split("=")[1];
+			 }
+			 console.log("parameterMap: " + parameterMap);
+		var response = {
+                access_token: parameterMap["access_token"],
+                token_type: parameterMap["token_type"],
+                uid: parameterMap["uid"]
+            }*/
+		console.log("response: " + repsonse);
+		//doHelloWorld();
+	}
+};
+
+
+function doHelloWorld() {
+					 client.writeFile('hello.txt', 'Hello, World!', function (error) {
+							 if (error) {
+									 alert('Error: ' + error);
+							 } else {
+									 alert('File written successfully!');
+							 }
+					 });
+			 };
+
+
+function httpRequest(){
+	console.log("in http request: ");
+	try{
+		// not use in old browser
+		var request = new XMLHttpRequest();
+		console.log("request: " + request);
+		return request;
+	}
+	catch(error){
+		console.log("http-error: " + error);
+		// max be thorw
+	}
+}
+
+
+</script>
+</html>

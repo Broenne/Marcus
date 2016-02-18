@@ -1,0 +1,11 @@
+﻿<div ng-app="HelloMarcus">
+    <h1>calibration from ME</h1>
+    <div ng-controller="calibrationPoints">
+        points: <span ng-bind="calibrationData"></span>
+        <div ng-controller="calibrationPoints" calibrationlinechart></div>
+    </div>
+
+    <div ng-controller="GraphCtrl " mblinechart></div>
+    <div ng-controller="GraphCtrl" ng-bind="$scope.timeSec"></div>
+
+</div>

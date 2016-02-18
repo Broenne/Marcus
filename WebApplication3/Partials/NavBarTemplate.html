@@ -1,0 +1,8 @@
+﻿<ul>
+    <li ng-repeat="route in routes" ng-class="{active: activeRoute(route)}">
+        <!-- ReSharper disable once Html.IdNotResolved -->
+        <a ng-href="#{{route.path }}">{{ route.name }}</a>
+    </li>
+</ul>
+
+<!--<ul class="nav nav-pills">-->

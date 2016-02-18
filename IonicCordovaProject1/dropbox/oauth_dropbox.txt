@@ -1,0 +1,11 @@
+https://www.dropbox.com/developers/apps/info/b0p253cf4pkii3h
+MarcusAppTest
+b0p253cf4pkii3h
+oo2m6n2gfi6qzg2
+
+
+// token
+1yzDVBJGRy4AAAAAAABvB_d0mwqveAbG1XO8pet2mDYkK_IBunaAZLQQ4jAl5SIn
+
+https://www.dropbox.com/1/oauth2/authorize?client_id=<app key>&response_type=code&redirect_uri=<redirect URI>&state=<CSRF token>
+https://www.dropbox.com/1/oauth2/authorize?client_id=b0p253cf4pkii3h&response_type=code&redirect_uri=https://www.dropbox.com/home/test&state=1yzDVBJGRy4AAAAAAABvB_d0mwqveAbG1XO8pet2mDYkK_IBunaAZLQQ4jAl5SIn

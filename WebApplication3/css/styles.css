@@ -1,0 +1,16 @@
+﻿
+/*www.color-hex.com/color/dbd5f9*/
+@import url('../Content/bootstrap.min.css');
+@import url('navigation.css');
+@import url('button.css');
+
+.backgroundMeter {
+        background-image: url('../pics/balgengaszaehlerg425.jpg');
+    }
+  
+.mainContainer{
+    background-color:#DBD5F9;
+    height:1200px;/*das ist noch fusch, oder?*/
+}
+
+

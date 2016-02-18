@@ -1,0 +1,162 @@
+c:\users\marcus\documents\visual studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+c:\users\marcus\documents\visual studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+c:\users\marcus\documents\visual studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+c:\users\marcus\documents\visual studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+c:\users\marcus\documents\visual studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+c:\users\marcus\documents\visual studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+c:\users\marcus\documents\visual studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\Autofac.dll
+c:\users\marcus\documents\visual studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\Autofac.xml
+C:\Users\Marcus\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\roslyn\csc.exe
+C:\Users\Marcus\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Marcus\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Marcus\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Marcus\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Marcus\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Marcus\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Marcus\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\Marcus\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\Marcus\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\roslyn\vbc.exe
+C:\Users\Marcus\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\Marcus\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\Marcus\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Marcus\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Marcus\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\Microsoft.Owin.dll
+C:\Users\Marcus\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Marcus\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\Marcus\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Marcus\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\Owin.dll
+C:\Users\Marcus\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\WebApplication1.dll
+C:\Users\Marcus\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\WebApplication1.pdb
+C:\Users\Marcus\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Marcus\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Marcus\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\Microsoft.Owin.xml
+C:\Users\Marcus\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Marcus\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\Marcus\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Marcus\documents\visual studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\IronPython.dll
+C:\Users\Marcus\documents\visual studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\IronPython.Modules.dll
+C:\Users\Marcus\documents\visual studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\IronPython.SQLite.dll
+C:\Users\Marcus\documents\visual studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\IronPython.Wpf.dll
+C:\Users\Marcus\documents\visual studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\Marcus\documents\visual studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\Microsoft.Scripting.AspNet.dll
+C:\Users\Marcus\documents\visual studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\Microsoft.Scripting.dll
+C:\Users\Marcus\documents\visual studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\Marcus\documents\visual studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\IronPython.xml
+C:\Users\Marcus\documents\visual studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\IronPython.Modules.xml
+C:\Users\Marcus\documents\visual studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\IronPython.SQLite.xml
+C:\Users\Marcus\documents\visual studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\IronPython.Wpf.xml
+C:\Users\Marcus\documents\visual studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\Microsoft.Dynamic.xml
+C:\Users\Marcus\documents\visual studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\Microsoft.Scripting.xml
+C:\Users\Marcus\documents\visual studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\Microsoft.Scripting.AspNet.xml
+C:\Users\Marcus\documents\visual studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\Microsoft.Scripting.Metadata.xml
+C:\Users\Marcus\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\MathNet.Numerics.dll
+C:\Users\Marcus\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\MathNet.Numerics.xml
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\roslyn\csc.exe
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\roslyn\vbc.exe
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\roslyn\VBCSCompiler.exe
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\Autofac.dll
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\IronPython.dll
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\IronPython.Modules.dll
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\IronPython.SQLite.dll
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\IronPython.Wpf.dll
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\MathNet.Numerics.dll
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\Microsoft.Dynamic.dll
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\Microsoft.Owin.dll
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\Microsoft.Owin.Security.dll
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\Microsoft.Scripting.AspNet.dll
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\Microsoft.Scripting.dll
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\Newtonsoft.Json.dll
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\Owin.dll
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\WebApplication1.dll
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\WebApplication1.pdb
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\Autofac.xml
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\IronPython.xml
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\IronPython.Modules.xml
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\IronPython.SQLite.xml
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\IronPython.Wpf.xml
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\MathNet.Numerics.xml
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\Microsoft.Dynamic.xml
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\Microsoft.Owin.xml
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\Microsoft.Owin.Security.xml
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\Microsoft.Scripting.xml
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\Microsoft.Scripting.AspNet.xml
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\Microsoft.Scripting.Metadata.xml
+C:\apps\ConsoleApplication1\ConsoleApplication1\bin\Debug\Newtonsoft.Json.xml
+C:\apps\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\apps\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\apps\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\roslyn\csc.exe
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\roslyn\vbc.exe
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\roslyn\VBCSCompiler.exe
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\Autofac.dll
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\IronPython.dll
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\IronPython.Modules.dll
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\IronPython.SQLite.dll
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\IronPython.Wpf.dll
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\MathNet.Numerics.dll
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\Microsoft.Dynamic.dll
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\Microsoft.Owin.dll
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\Microsoft.Owin.Security.dll
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\Microsoft.Scripting.AspNet.dll
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\Microsoft.Scripting.dll
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\Newtonsoft.Json.dll
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\Owin.dll
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\WebApplication1.dll
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\WebApplication1.pdb
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\Autofac.xml
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\IronPython.xml
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\IronPython.Modules.xml
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\IronPython.SQLite.xml
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\IronPython.Wpf.xml
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\MathNet.Numerics.xml
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\Microsoft.Dynamic.xml
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\Microsoft.Owin.xml
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\Microsoft.Owin.Security.xml
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\Microsoft.Scripting.xml
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\Microsoft.Scripting.AspNet.xml
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\Microsoft.Scripting.Metadata.xml
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\Newtonsoft.Json.xml
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\apps\Marcus_Spielwiese\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Marcus\Dropbox\android\Marcus_Spielwiese\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Marcus\Dropbox\android\Marcus_Spielwiese\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\Marcus\Dropbox\android\Marcus_Spielwiese\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

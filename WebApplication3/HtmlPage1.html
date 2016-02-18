@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Q++</title>
+    <meta charset="utf-8"/>
+</head>
+<body >
+    <div ngApp="HelloMarcus" class="backgroundMeter">
+        <!--<button type="button" class="btn btn-default"
+                data-placement="right"
+                title="Frag wen anders :)"
+                onmouseenter="$(this).tooltip('show')">
+            Tooltip button
+        </button>-->
+
+        <div ng-controller="mouseCtrl">
+            <div ng-mouseover="alert();" style="background:grey;">
+                Marcus angie button
+            </div>
+        </div>  
+        <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop nav-pills btn-sample-->
+        <div class="row">
+            <div class="col-md-3" ng-controller="mouseCtrl" ng-mouseover="alert();">
+                <h1>linke Seite bei Desktop :)</h1>
+            </div>
+            <div class="col-md-6 mainContainer">
+                <navigation></navigation>
+                <div ng-view></div>
+            </div>
+            <div class="col-md-3">
+                <h1 ng-controller="TimeCtrl" my-current-time="format"></h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+    <!-- todo refrencen auslagern -->
+<link href="css/styles.css" rel="stylesheet" />
+
+<!-- bundle with grunt??? -->
+<!-- angular -->
+<script src="Scripts/angular.min.js"></script>
+<script src="Scripts/angular-route.js"></script>
+<script src="Scripts/angular-ui/ui-bootstrap.js"></script>
+
+<!-- source graph -->
+<script src="Services/jsapi.js"></script>
+
+<!-- own sources -->
+<script src="Services/Modules.js"></script>
+<script src="Services/Navigation.js"></script>
+<script src="Services/Time.js"></script>
+<script src="Services/Graph.js"></script>
+<script src="Services/Mouse.js"></script>
+<script src="Services/CalibrationPoints.js"></script>
+<script type="text/javascript">
+    google.setOnLoadCallback(function() {
+        angular.bootstrap(document.body, ['HelloMarcus']);
+    });
+    google.load('visualization', '1', { packages: ['corechart'] });
+</script>

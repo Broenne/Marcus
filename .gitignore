@@ -41,3 +41,37 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+packages/
+*.md
+IonicCordovaProject1/test/fabric.js-master/
+IonicCordovaProject1/test/crops/
+IonicCordovaProject1/scripts/i18n/angular-locale_zu.js
+IonicCordovaProject1/scripts/i18n/angular-locale_zu-za.js
+IonicCordovaProject1/scripts/i18n/
+WebApplication1/Lib/distutils/
+WebApplication1/Lib/
+IonicCordovaProject1/res/icons/android/icon-36-ldpi.png
+IonicCordovaProject1/plugins/windows.json
+IonicCordovaProject1/res/
+IonicCordovaProject1/plugins/
+IonicCordovaProject1/scripts/
+IonicCordovaProject1/platforms/windows/www/plugins/
+TestAzure/Areas/HelpPage/HelpPage.css
+IonicCordovaProject1/platforms/windows/images/
+IonicCordovaProject1/platforms/windows/cordova/node_modules/
+IonicCordovaProject1/platforms/windows/cordova/
+IonicCordovaProject1/platforms/android/src/org/apache/cordova/file/LocalFilesystem.java
+IonicCordovaProject1/platforms/android/src/
+UI5Application1/bin/
+UI5Application1/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+TestAzure/obj/
+IonicCordovaProject1/platforms/android/cordova/node_modules/shelljs/
+IonicCordovaProject1/platforms/android/assets/www/plugins/
+IonicCordovaProject1/platforms/android/assets/www/scripts/android2.3-jscompat.js
+IonicCordovaProject1/platforms/android/assets/
+IonicCordovaProject1/platforms/android/cordova/lib/
+WebApplication1/bin/
+IonicCordovaProject1/platforms/windows/
+IonicCordovaProject1/platforms/android/res/
+UI5Application1/obj/
+WebApplication3/.bin/
